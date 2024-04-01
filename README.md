@@ -15,3 +15,18 @@ Clone this repository to start experimenting with the XMPP scripts. Ensure you h
 ## Note
 
 For comprehensive instructions on setting up your environment, running each script, and completing the lab exercises, please refer to the detailed lab guide available on Moodle.
+
+## License
+
+The code provided in this repository is derived from examples found in the respective libraries' official repositories. The license for each code example follows the license outlined by its respective library. For detailed licensing information, please refer to the original libraries' repositories:
+
+- For XMPP scripts:
+  - [Slixmpp repository](https://github.com/poezio/slixmpp)
+
+## References
+
+This repository contains example scripts inspired by and adapted from the following sources:
+
+- XMPP examples were adapted from the Slixmpp documentation and example scripts.
+
+These scripts are intended for educational purposes within the EURECOM APPIOT 2024 course to facilitate understanding of the XMPP protocol.
