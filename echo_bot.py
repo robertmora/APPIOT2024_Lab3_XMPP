@@ -1,6 +1,4 @@
-import asyncio
 import logging
-import ssl
 from slixmpp import ClientXMPP
 
 class EchoBot(ClientXMPP):
@@ -39,6 +37,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG,
                         format='%(levelname)-8s %(message)s')
 
-    xmpp = EchoBot('example@example', 'password')
+    xmpp = EchoBot('alice@networkedss-virtualbox', 'replace_your_password')
     xmpp.connect()
     xmpp.process()
